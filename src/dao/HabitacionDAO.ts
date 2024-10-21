@@ -4,7 +4,7 @@ import { createDebugger } from "../utils/debugConfig";
 
 import { addDoc, collection, getDocs } from "firebase/firestore";
 import { FirebaseService } from "../service/firebaseDB";
-import { Habitacion } from "../entities/Category";
+import { Habitacion } from "../entities/Habitacion";
 
 const firebaseService = FirebaseService.getInstance();
 const db = firebaseService.getFirestoreInstance();

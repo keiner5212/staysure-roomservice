@@ -4,7 +4,7 @@ import { HttpStatusCode } from "axios";
 import { CheckCache } from "../middlewares/Cache";
 import { Cache } from "../utils/cache";
 import { HabitacionDAO } from "../dao/HabitacionDAO";
-import { Habitacion } from "../entities/Category";
+import { Habitacion } from "../entities/Habitacion";
 
 export class HabitacionController extends HabitacionDAO {
 	private router: Router;
